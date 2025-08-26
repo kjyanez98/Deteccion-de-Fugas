@@ -1,9 +1,11 @@
-# 1. Deteccion de Fugas
-## Como Clonar el repositorio
-Para clonar el repositorio utilizando HTTPS, ejecutar el siguiente código
+# Deteccion-de-Fugas
+
+## Como clonar el repositorio
+Para clonar el repositorio utilizando HTTPS, ejecutar el siguiente comando:
 ```bash
 git clone https://github.com/kjyanez98/Deteccion-de-Fugas.git
 ```
+
 ## Para crear un commit
 Seguir los siguientes pasos:
 1. Para verificar que cambios existen en el repositorio:
@@ -41,9 +43,10 @@ Para crear la rama:
 ```bash
 git branch NOMBRE_DE_LA_RAMA
 ```
-Para movernos, posteriormente debemos ejecutar:
+Para movernos, posteriormente debemos ejecutar cualquier de los dos comandos:
 ```bash
 git checkout NOMBRE_DE_LA_RAMA
+git switch NOMBRE_DE_LA_RAMA
 ```
 Para crear la rama y movernos a esa rama:
 ```bash
@@ -64,4 +67,3 @@ Consiste en:
 5. Crear un Merge Request(o Pull Request)
     
     Significa que pasa por un proceso de revisión de código (Code review), y una vez se aprueban los cambios, se hace merge (se funciona), los cambios de la rama, con la rama objetivo (normalmente es la rama Main)
-
